@@ -7,10 +7,10 @@ body {
 	padding: 0;
 	margin-bottom: 50px;
     border-bottom: solid 8px;
-    border-color: #00cc00;
-	height: 550px;
+    border-color: blue;
+	height: 500px;
 	background: grey;
-	background: url("../images/mechatronics.jpg");
+	background: url("../images/source.jpg");
 	background-size: cover;
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -31,7 +31,7 @@ body {
 #addsimage ul li{
 	height: 80px;
 	width: 150px;
-	background-color: #00cc00;
+	background-color: blue;
 	line-height: 80px;
 	text-align: center;
 	float: left;
@@ -81,8 +81,8 @@ body {
 
 
 
-#robot_img {
-	margin-top: 190px;
+#computer_img {
+	margin-top: 30px;
 	float: right;
     border-radius: 10%;
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -98,94 +98,60 @@ h1 {
 	color: black;
 }
 
-/*----------------------- Introduction Paragraphs Edit ------------------------*/
 
-#box_for_paragraphs a{
+/*----------------------- Source Sentence Edit ------------------------*/
+
+#sentence a{
 	padding: 7px;
-	background: #00cc00;
+	background: blue;
 	text-decoration: none;
 	color: white;
 	border-radius: 30%;
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#box_for_paragraphs a:hover {
+#sentence ol li {
+	margin: 40px;
+}
+
+#sentence a:hover {
 	background: black;
 }
 
-#box_for_paragraphs {
+#sentence {
 	padding-bottom: 40px;
-	height: 700px;
+	height: 300px;
 	width: 600px;
 	margin-top: 70px;
 	margin-bottom: 70px;
 	background: white;
-	border-right: solid 3px #00cc00;
+	border-right: solid 3px blue;
 	border-right-style: dotted;
 	padding-right: 40px;
 	color: black;
 }
 
-#box_for_paragraphs h2 {
+#sentence h2 {
 	text-align: center;
 }
 
-#box_for_paragraphs p{
-	text-align: justify;
-	line-height: 1.5;
+#sentence p{
+	font-size: 25px;
 }
 
-#robot2_img {
-	float: left;
-	margin-top: 100px;
-	border-radius: 10%;
-	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+/*--------------------------------------------------------------------------------*/
 
-#camera_img {
-	float: left;
-	margin-top: -600px;
-	border-radius: 10%;
-	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-/*-------------------------- History Paragraphs Edit ----------------------------*/
-
-#box_for_history_paras{
-	padding-top: 30px;
-	margin-left: auto;
-	height: 1170px;
-	width: 600px;
-	margin-top: 25px;
-	margin-bottom: 70px;
-	background: white;
-	border-left: solid 3px #00cc00;
-	border-left-style: dotted;
-	padding-left: 40px;
-	color: black;
-}
-
-#box_for_history_paras h2{
-	text-align: center;	
-}
-
-#box_for_history_paras p {
-	text-align: justify;
-	line-height: 1.5;
-}
-
-/*---------------------------------------------------------------------*/
-
-#drone_img {
+#google_img {
 	height: 600px;
 	background: grey;
-	background: url("../images/drone.jpg");
+	background: url("../images/google.jpg");
 	background-size: cover;
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#drone_img p {
-	text-shadow: 1px 1px 2px white, 0 0 25px #00cc00, 0 0 5px #00cc00;
-	padding-top: 250px;
+#google_img p {
+	text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px blue;
+	padding-top: 110px;
 	text-align: center;
 	font-family: Agency FB;
 	font-size: 70px;
