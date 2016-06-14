@@ -79,6 +79,8 @@ body {
 }
 
 #phone_img {
+	width: 50%;
+	height: 50%;
 	margin-left: 700px;
     border-radius: 50%;
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

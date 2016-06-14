@@ -82,6 +82,8 @@ body {
 
 
 #robot_img {
+	width: 40%;
+	height: 40%;
 	margin-top: 190px;
 	float: right;
     border-radius: 10%;
@@ -136,6 +138,8 @@ h1 {
 }
 
 #robot2_img {
+	width: 43%;
+	height: 43%;
 	float: left;
 	margin-top: 100px;
 	border-radius: 10%;
@@ -143,6 +147,8 @@ h1 {
 }
 
 #camera_img {
+	width: 43%;
+	height: 43%;
 	float: left;
 	margin-top: -600px;
 	border-radius: 10%;

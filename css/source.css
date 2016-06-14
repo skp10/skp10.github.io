@@ -82,6 +82,8 @@ body {
 
 
 #computer_img {
+	width: 40%;
+	height: 40%;
 	margin-top: 30px;
 	float: right;
     border-radius: 10%;

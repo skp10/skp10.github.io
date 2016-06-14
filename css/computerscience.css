@@ -82,6 +82,8 @@ body {
 
 
 #computer_img {
+	width: 40%;
+	height: 40%;
 	margin-top: 100px;
 	float: right;
     border-radius: 10%;
@@ -137,6 +139,8 @@ h1 {
 }
 
 #keyboard_img {
+	width: 43%;
+	height: 43%;
 	float: left;
 	margin-top: 200px;
 	border-radius: 10%;
